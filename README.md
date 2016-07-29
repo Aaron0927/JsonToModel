@@ -1,0 +1,9 @@
+# JsonToModel
+
+setValuesForKeysWithDictionary:
+当字典中的键，在对象属性中找不到对应的属性的时候会报错
+通过该方法可以解决这个问题
+
+可以添加自定义类型前缀，将json数据一件解析为model类型
+
+将属性中的id改为identifier,解决关键字冲突问题
